@@ -1,9 +1,6 @@
-// =================================================================
-// 2. ALUNO.java (Entidade/Model)
-// =================================================================
+
 public class Aluno {
-    // Atributos privados
-    private int id; // Chave primaria
+    private int id;
     private String nome;
     private String email;
 
@@ -18,7 +15,7 @@ public class Aluno {
         this.email = email;
     }
 
-    // Metodos Getters (Acessores)
+    // Metodos Getters
     public int getId() {
         return id;
     }
@@ -29,7 +26,7 @@ public class Aluno {
         return email;
     }
 
-    // Metodos Setters (Modificadores)
+    // Metodos Setters
     public void setId(int id) {
         this.id = id;
     }
