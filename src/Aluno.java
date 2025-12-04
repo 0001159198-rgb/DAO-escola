@@ -3,7 +3,7 @@
 // =================================================================
 public class Aluno {
     // Atributos privados
-    private int id; // Chave primária
+    private int id; // Chave primaria
     private String nome;
     private String email;
 
@@ -18,7 +18,7 @@ public class Aluno {
         this.email = email;
     }
 
-    // Métodos Getters (Acessores)
+    // Metodos Getters (Acessores)
     public int getId() {
         return id;
     }
@@ -29,7 +29,7 @@ public class Aluno {
         return email;
     }
 
-    // Métodos Setters (Modificadores)
+    // Metodos Setters (Modificadores)
     public void setId(int id) {
         this.id = id;
     }
